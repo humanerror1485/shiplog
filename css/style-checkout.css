@@ -1,0 +1,93 @@
+.overlay {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 150px 0px 50px 0px;
+}
+
+.titles {
+    font-weight: bold;
+    color: #0d0870;
+    font-size: 30px;
+}
+
+/* ===================================================================================== */
+
+.overlay-countdown {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+}
+
+#box {
+    box-sizing: border-box;
+    background-color: #d83030;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;  
+    border: 1px solid #d83030;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.countdown {
+    color: white;
+    font-weight: bold;
+    font-size: 12px; 
+}
+
+/* ============================================================================ */
+
+.history {
+    border: solid 2px #0d0870;
+	border-radius: 10px;
+    box-shadow: #00000059 0px 5px 15px;
+    width: 540px;
+    min-height: 500px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 495px;
+    height: 200px;
+    padding: 10px;
+    background-color: #0d0870;
+    border: 2px solid #0d0870;
+    border-radius: 5px;
+    margin: 20px 0px 20px 20px;
+    text-align: left;
+}
+
+.direction {
+    margin-bottom: 17px;
+}
+
+.title {
+    color: white; 
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.detail {
+ margin-bottom: 10px;
+}
+
+.detail .sub {
+    color: white; 
+    margin-right: 15px; 
+    font-weight: 600; 
+    font-size: 12px;
+}
+
+.detail .desc {
+    color: white; 
+    margin-right: 15px; 
+    font-size: 12px; 
+    font-weight: 50;
+}
+
+
+/* ============================================================================ */

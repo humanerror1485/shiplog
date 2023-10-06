@@ -1,0 +1,33 @@
+.serv{
+    width: 100%;
+    text-align: center;
+    padding: 150px;
+}
+
+.serv img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.serv .title {
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: #0d0870;
+    font-weight: bold;
+    text-align: left;
+}
+
+.serv p {
+    color: #0d0870;
+    font-size: 27px; 
+    text-align: justify;
+    line-height: 40px;
+}
+
+.serv .text {
+    color: #0d0870;
+    font-size: 27px; 
+    text-align: justify;
+    line-height: 40px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,112 @@
+.overlay {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 150px 0px 50px 0px;
+}
+
+/* ===================================================================================== */
+
+.container {
+    box-sizing: border-box;
+    width: 840px;
+    height: 300px;
+    padding: 10px;
+    background-color: #0d0870;
+    border: 2px solid #0d0870;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.sub-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 0px 25px;
+}
+
+.subs-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+
+.x-input {
+    width: 310px;
+	border: none;
+    box-shadow: #63636333 0px 2px 8px 0px;
+    border-radius: 5px;
+	padding: 12px 20px;
+	margin: 10px 0px 10px 25px;
+    font-size: 15px;
+}
+
+.y-input {
+    width: 130px;
+	border: none;
+    box-shadow: #63636333 0px 2px 8px 0px;
+    border-radius: 5px;
+	padding: 12px 20px;
+	margin: 10px 0px 10px 25px;
+    font-size: 15px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 130px;
+	border: none;
+    box-shadow: #63636333 0px 2px 8px 0px;
+    border-radius: 5px;
+	padding: 12px 20px;
+	margin: 34px 0px 10px 44px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #c0bfd7;
+}
+
+input:focus {
+    outline-color: #0d0870;
+}
+
+/* ============================================================================ */
+
+.i-input {
+    width: 130px;
+	border: none;
+    box-shadow: #63636333 0px 2px 8px 0px;
+    border-radius: 5px;
+	padding: 12px 20px;
+	margin: 10px 0px 10px 0px;
+    font-size: 15px;
+}
+
+.z-input {
+    width: 90px;
+	border: none;
+    box-shadow: #63636333 0px 2px 8px 0px;
+    border-radius: 5px;
+	padding: 12px 20px;
+	margin: 10px 0px 10px 0px;
+    font-size: 15px;
+}
+
+.btn-x {
+    cursor: pointer;
+    width: 99px;
+	border: none;
+    box-shadow: #63636333 0px 2px 8px 0px;
+    border-radius: 5px;
+	padding: 12px 20px;
+	margin: 33px 0px 10px 0px;
+    font-size: 15px;
+    height: 42px;
+}
+
+.btn-x:hover {
+    background-color: #c0bfd7;
+}

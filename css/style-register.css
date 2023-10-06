@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+}
+
+.ima {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.register {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.register-container {
+    background-color: white;
+	border-radius: 10px;
+    box-shadow: #00000059 0px 5px 15px;
+    width: 768px;
+    min-height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px 50px 30px 50px;
+    margin-top: 60px;
+}
+
+.register-title {
+    font-size: 30px;
+    color: #0d0870;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+/* =============================================================================== */
+
+.register-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-col {
+    flex-basis: 25%;
+    padding: 20px 12px 0px 12px;
+}
+
+.sub-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #0d0870;
+}
+
+.register-input {
+    width: 300px;
+	border: none;
+    box-shadow: #63636333 0px 2px 8px 0px;
+    border-radius: 5px;
+	padding: 12px 20px;
+	margin: 10px 0px 10px 0px;
+}
+
+/* =============================================================================== */
+
+.register-form-button {
+    margin: 25px;
+    text-align: center;
+}
+
+.back-button {
+    cursor: pointer;
+    width: 200px;
+    text-decoration: none;
+    border: 2px solid #0d0870;
+    padding: 9px 27px;
+    color: #0d0870;
+    font-size: 13px;
+    border-radius: 5px; 
+}
+
+.back-button:hover {
+    color: white;
+    background-color: #0d0870;
+    border: 1px solid #0d0870;
+}
+
+.register-button {
+    cursor: pointer;
+    width: 200px;
+    margin: 15px 7px 0px 5px;
+    padding: 9px 27px;
+    color: #FFF;
+    border: none;
+    font-size: 13px;
+    background-color: #0d0870;
+    border-radius: 5px;
+    border: 2px solid #0d0870;
+}
+
+.register-button:hover {
+    background-color: white;
+    border: 2px solid #0d0870;
+    color: #0d0870;
+}
+
+/* =============================================================================== */
+
+.register-login {
+    margin-top: 20px;
+    bottom: 0;
+    text-align: center;
+    color: #160606;
+    font-size: 13px;
+}
+.register-login-link {
+    color: #160606;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+/* =============================================================================== */
+
+
+
+

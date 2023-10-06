@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-index {
+    background-color: #FFF;
+    display: flex;
+    padding: 15px 3%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s; 
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    z-index: 99;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.nav-index img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links .nav-bar {
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.nav-bar::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #0d0870;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-bar:hover::after {
+    width: 100%;
+}
+
+.nav-title {
+    color: #0d0870;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: #0d0870;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button {
+    margin: 10px 0px 10px 5px;
+}
+
+.button-a {
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    margin: 0px 0px 0px 0px;
+    padding: 7px 27px;
+    color: #FFF;
+    border: none;
+    font-size: 13px;
+    background-color: #0d0870;
+    border-radius: 5px;
+    border: 2px solid #0d0870;
+}
+
+.button-a:hover {
+    background-color: white;
+    border: 2px solid #0d0870;
+    color: #0d0870;
+}
+
+
+
+
+/* ============================================================================ */
+
+footer {
+    text-align: center;
+    background-color: #cccccc;
+}
+
+footer img{
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
